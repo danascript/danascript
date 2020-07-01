@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A portfolio website of danascript">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>danascript</title>
+    <link rel="icon" type="image/png" href="images/1.png">
+
+    <link href="style.css" rel="stylesheet">
+    <!-- <link href="progress-circle.css" rel="stylesheet"> -->
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:200,400&display=swap"" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+
+    <nav class="nav--section navbar navbar-expand-md fixed-top">
+        <div class="container-fluid">
+            <a href="#top" class="navbar-brand"> 
+                Daniela Fedyakin | danascript
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i id="navbar-toggler" class="fas fa-angle-down" aria-hidden="true"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#tech" class="nav-link">Tech</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- JUMBOTRON -->
+    
+    <div id="top" class="home--section container-fluid mx-auto">
+        <div class="container text-center">
+            <div class="col-12 col-md-4 offset-md-4 mb-3">
+                <img class="img-fluid rounded-circle" src="images/me_stripes.jpg" alt="A photo of Daniela looking at the camera behind her laptop">
+            </div>
+            <div class="p-2">
+                <h2>Daniela Fedyakin | danascript</h2>
+                <h3>Full-stack Web Developer</h3>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-md-9">
+
+                        <p class="p-2">
+                            Hi! I'm Daniela (known as <i>danascript</i> in the online world), a full-stack web developer based in Berlin, Germany. I am very passionate about my job, and hope one day to make a change with the skills that I have. I'm a team player who is also a former Architect, so attention to details and organisational skills are my second name.
+                        </p>
+                            
+                        <p class="p-2">
+                            My daily tech stack mainly consists of MongoDB, Express.js, VueJS, and Node.js (MEVN), but you can scroll down to check which other technologies I'm familiar with! To keep in touch or contact me - check out my social media accounts, where I'm most active and would love to have a chat!
+                        </p>
+                        <i id="scroll" class="fas fa-sort-down bounce p-3" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  TECH -->
+
+    <div id="tech" class="tech--section container-fluid mx-auto text-center pb-5 mb-5">
+        <div class="container mb-5">
+            <h4 class="text-uppercase mb-3">my tech</h4>
+            <p>The best way to learn and to grow is by getting out of your comfort zone.</p>
+            <p> And this is what getting out of my comfort zone gave me:</p>
+        </div>
+        <div class="container pt-5 mt-5">
+            <div class="row justify-content-around animate--first">
+                 <div class="tech--progress javascript col-12 col-sm-5 col-md-2 mb-5"></div>
+                 <div class="tech--progress es6 col-12 col-sm-5 col-md-2 mb-5"></div>
+                 <div class="tech--progress vuejs col-12 col-sm-5 col-md-2 mb-5"></div>
+                 <div class="tech--progress reactjs col-12 col-sm-5 col-md-2 mb-5"></div>
+            </div>
+                
+            <div class="row justify-content-around animate--second">
+                 <div class="tech--progress nodejs col-12 col-sm-5 col-md-2 mb-5"></div>
+                 <div class="tech--progress express col-12 col-sm-5 col-md-2 mb-5"></div>
+                 <div class="tech--progress mongodb col-12 col-sm-5 col-md-2 mb-5"></div>
+                 <div class="tech--progress mongoose col-12 col-sm-5 col-md-2 mb-5"></div>
+            </div>
+        </div>
+    </div>
+
+        <!-- PORTFOLIO -->
+
+    <div id="portfolio" class="portfolio--section container-fluid mx-auto text-center pb-5 mb-5">
+        <div class="container mb-5">
+            <h4 class="text-uppercase mb-3">My portfolio</h4>
+            <p>My individual projects that I wanted to share with you</p>
+        </div>
+        <div class="container-fluid pt-4">
+            <div class="card-columns">
+                <!-- <div class="col-7 col-sm-3 col-md-4"> -->
+
+                    <div class="col-6 pt-3 col-sm-6 offset-sm-2 col-md-6 offset-md-7 pt-md-5 thumbnail" 
+                    >
+                        <a href="https://www.instagram.com/stories/highlights/17988153412144759/" target="_blank" rel="noopener">
+                            <img src="images/WW_3.jpg" alt="Women's Wednesdays #3" class="img-fluid">
+                        </a>
+                        <p class="pt-3">WmnWdn Issue #3</p>
+                    </div>
+
+                    <div class="col-7 offset-5 col-sm-7 offset-sm-6 col-md-9 offset-md-1 thumbnail">
+                        <a href="https://codepen.io/danascript/pen/qxpxYN" target="_blank" rel="noopener">
+                            <img src="images/calculatorjs.jpg" alt="CalculatorJs" class="img-fluid">
+                        </a>
+                        <p class="pt-3">Calculator JS</p>
+                    </div>
+                    
+                    <div class="col-9 pb-sm-5 col-sm-8 col-md-5 offset-md-7 thumbnail">
+                        <a href="https://www.instagram.com/stories/highlights/17963700880044167/" target="_blank" rel="noopener">
+                            <img src="images/WW_2.jpg" alt="Women's Wednesdays #2" class="img-fluid">
+                        </a>
+                        <p class="pt-3">WmnWdn Issue #2</p>
+                    </div>
+
+                    <div class="col-4 offset-7 col-sm-5 offset-sm-6 col-md-10 offset-md-1 pt-md-3 mb-md-4 thumbnail">
+                        <a href="https://healthymindsinitiative.org" target="_blank" rel="noopener">
+                            <img src="images/healthymindsinitiative.jpg" alt="Healthy Minds Initiative" class="img-fluid">
+                        </a>
+                        <p class="pt-3">Healthy Minds Initiative</p>
+                    </div>
+
+                    <div class="col-7 offset-1 col-sm-4 offset-sm-3 col-md-4 offset-md-1 pt-md-3 thumbnail">
+                        <a href="https://medium.com/@danascript/the-importance-of-asking-questions-36d125d24bc9" target="_blank" rel="noopener">
+                            <img src="images/medium_2.jpg" alt="Medium article" class="img-fluid">
+                        </a>
+                        <p class="pt-3">My medium article</p>
+                    </div>
+
+                    <div class="col-9 offset-3 col-sm-5 offset-sm-5 col-md-7 offset-md-4 pb-md-5 thumbnail">
+                        <a href="https://codepen.io/danascript/pen/rdJXMo" target="_blank" rel="noopener">
+                            <img src="images/tic.jpg" alt="Tic Tac Toe" class="img-fluid">
+                        </a>
+                        <p class="pt-3">Tic Tac Toe</p>
+                    </div>
+                    
+                    <div class="col-4 offset-2 col-sm-7 offset-sm-1 col-md-9 offset-md-0 pt-md-5 thumbnail">
+                        <a href=" https://codepen.io/danascript/pen/wmadQX" target="_blank" rel="noopener">
+                            <img src="images/pomodoro.jpg" alt="Pomodoro Clock" class="img-fluid">
+                        </a>
+                        <p class="pt-3">Pomodoro Clock</p>
+                    </div>
+
+                    <div class="col-7 offset-4 col-sm-9 offset-sm-3 col-md-7 mt-md-4 offset-md-4 thumbnail">
+                        <a href="https://www.instagram.com/stories/highlights/17936453737136736/" target="_blank" rel="noopener">
+                            <img src="images/WW_1.jpg" alt="Women's Wednesdays #1" class="img-fluid">
+                        </a>
+                        <p class="pt-3">WmnWdn Issue #1</p>
+                    </div>
+                    
+                    <div class="col-9 col-sm-6 col-md-4 offset-md-1 thumbnail">
+                        <a href="https://codepen.io/danascript/pen/WdbzpG" target="_blank" rel="noopener">
+                            <img src="images/weather.jpg" alt="Weather API" class="img-fluid">
+                        </a>
+                        <p class="pt-3">30 days VanillaJs</p>
+                    </div>
+                </div>
+            <!-- </div> -->
+        </div>
+    </div>
+
+    <!-- RESUME -->
+
+    <div id="resume" class="resume--section container-fluid mx-auto text-center mb-5">
+            <div class="container mb-5">
+                <h4 class="text-uppercase mb-3">My Resume</h4>
+                <p>A brief description of my previous employment and educational background</p>
+            </p>
+            </div>
+            <div class="container d-flex flex-wrap">
+                <div class="row mx-auto">
+                    <div class="flex-column col-12 col-md-5 mx-auto text-lg-left mb-4">
+                        <div class="d-lg-flex mb-5">
+                            <i class="fas fa-chalkboard-teacher fa-2x mb-4 mb-lg-0 mr-lg-4" aria-hidden="true"></i>
+                            <div>
+                                <h6>September 2008 - July 2013</h6>
+                                <p>Graduated with Master's Degree in Architecture</p>
+                            </div>
+                        </div>
+
+                        <div class="d-lg-flex mb-5">
+                            <i class="fas fa-chalkboard-teacher fa-2x mb-4 mb-lg-0 mr-lg-4" aria-hidden="true"></i>
+                            <div>
+                                <h6>April 2017 - July 2017</h6>
+                                <p>JavaScript & React.js course in ReDi School</p>
+                            </div>
+                        </div>
+
+                        <div class="d-lg-flex mb-5">
+                            <i class="fas fa-chalkboard-teacher fa-2x mb-4 mb-lg-0 mr-lg-4" aria-hidden="true"></i>
+                            <div>
+                                <h6>September 2017 - May 2018</h6>
+                                <p>Full-Stack Web development course in DCI</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex-column col-12 col-md-5 mx-auto text-lg-left">
+                        <div class="d-lg-flex mb-5">
+                            <i class="far fa-building fa-2x mb-4 mb-lg-0 mr-lg-4" aria-hidden="true"></i>
+                            <div>
+                                <h6>October 2016 - December 2016</h6>
+                                <p>Mobile games tester in Anakan GmbH</p>
+                            </div>
+                        </div>
+
+                        <div class="d-lg-flex my-5">
+                            <i class="far fa-building fa-2x mb-4 mb-lg-0 mr-lg-4" aria-hidden="true"></i>
+                            <div>
+                                <h6>June 2018 - October 2019</h6>
+                                <p>Full-stack Web Developer at <a href="https://www.loots.com" target="_blank" rel="noopener">loots</a></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-lg-flex mb-5">
+                            <i class="far fa-building fa-2x mb-4 mb-lg-0 mr-lg-4" aria-hidden="true"></i>
+                            <div>
+                                <h6>October 2019 - present</h6>
+                                <p>Frontend Web Developer at <a href="https://www.ebay.com" target="_blank" rel="noopener">eBay</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SERVICES -->
+    <div id="services" class="services--section container-fluid mx-auto text-center pb-5 mb-5">
+        <div class="container mb-5">
+            <h4 class="text-uppercase mb-3">My services</h4>
+            <p>My vision and work led me to the opportunity to work with you in the following fields:</p>
+        </p>
+        </div>
+
+        <div class="row justify-content-center animate--first">
+            <div class="service-item text-center col-6 col-sm-6 col-lg-4 pb-4 mb-4">
+                <i class="fas fa-laptop-code fa-2x" aria-hidden="true"></i>
+                <p>
+                    Web applications
+                </p>
+            </div>
+            <div class="service-item text-center col-6 col-sm-6 col-lg-4 pb-4 mb-4">
+                <i class="fas fa-mobile-alt fa-2x" aria-hidden="true"></i>
+                <p>
+                    Mobile responsive
+                </p>
+            </div>
+            <div class="service-item text-center col-6 col-sm-6 col-lg-4 pb-4 mb-4">
+                <i class="fas fa-stream fa-2x" aria-hidden="true"></i>
+                <p>
+                    SEO
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center animate--second">
+            <div class="service-item text-center col-6 col-sm-6 col-lg-4 pb-4 mb-4">
+                <i class="fas fa-puzzle-piece fa-2x" aria-hidden="true"></i>
+                <p>
+                    Tailored approach
+                </p>
+            </div>
+            <div class="service-item text-center col-6 col-sm-6 col-lg-4 pb-4 mb-4">
+                <i class="fas fa-store fa-2x" aria-hidden="true"></i>
+                <p>
+                    Branding support
+                </p>
+            </div>
+            <div class="service-item text-center col-6 col-sm-6 col-lg-4 pb-4 mb-4">
+                <i class="fas fa-users fa-2x" aria-hidden="true"></i>
+                <p>
+                    User friendly
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- CONTACT -->
+    <div id="contact" class="contact--section container-fluid mx-auto text-center">
+        <div class="container mb-5">
+            <h4 class="text-uppercase mb-3">Contact me</h4>
+            <p>Follow me on social media to see my recent updates and feel free to DM me!</p>
+        </p>
+        </div>
+
+        <i class="fas fa-sort-down bounce"></i>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="contact--section container-fluid mx-auto p-3">
+        <div class="row d-flex justify-content-center">
+            <div class="icon p-2 col-2 col-md-1 text-center">
+                <a href="https://github.com/danascript" target="_blank" rel="noopener">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="icon p-2 col-2 col-md-1 text-center">
+                <a href="https://codepen.io/danascript" target="_blank" rel="noopener">
+                    <i class="fab fa-codepen" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="icon p-2 col-2 col-md-1 text-center">
+                <a href="https://www.linkedin.com/in/daniela-fedyakin" target="_blank" rel="noopener">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="icon p-2 col-2 col-md-1 text-center">
+                <a href="https://medium.com/@danascript" target="_blank" rel="noopener">
+                    <i class="fab fa-medium" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="icon p-2 col-2 col-md-1 text-center">
+                <a href="https://www.instagram.com/coding.misslild" target="_blank" rel="noopener">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="icon p-2 col-2 col-md-1 text-center">
+                <a href="https://twitter.com/_danascript_" target="_blank" rel="noopener">
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- SCRIPTS -->
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
+
+    <!-- POPPERJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP (JS) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- MAIN JS -->
+    <script src="main.js"></script>
+</body>
+</html>

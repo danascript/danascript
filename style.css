@@ -1,0 +1,340 @@
+/*         */
+/* GENERAL */
+/*         */
+
+* {
+  font-family: 'Muli', sans-serif;
+  font-weight: 200;
+ }
+
+h4 {
+  font-size: 1.4rem;
+}
+
+.card-columns {
+  column-count: 3;
+  display: inline-block;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*        */
+/* NAVBAR */
+/*        */
+
+nav.nav--section  {
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+
+.navbar-brand {
+  color: black;
+}
+.nav-link {
+  text-transform: lowercase;
+  color: black;
+}
+.nav-link:hover {
+  color: grey;
+}
+.navbar-toggler:focus {
+  outline: 1px dotted;
+}
+
+/*           */
+/* JUMBOTRON */
+/*           */
+
+.home--section {
+  padding-top: 8%;
+  padding-bottom: 12%;
+}
+
+/*      */
+/* TECH */
+/*      */
+
+.number {
+  margin-top: -60px;
+}
+
+.tech--progress svg{
+  transform: rotate(-90deg);
+}
+
+.tech--progress .inner-circle {
+  transition: 1.4s all ease-in-out;
+}
+
+/*          */
+/* SERVICES */
+/*          */
+
+/*           */
+/* PORTFOLIO */
+/*           */
+
+.thumbnail img {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+	box-shadow: 2px 2px 3px rgba(0,0,0,.5);
+  filter: grayscale(100%);
+	transition: opacity .2s ease-in-out;
+	transition: transform .2s ease-out;
+}
+.thumbnail:hover img {
+	opacity: 0.5;
+  filter: blur(1px);
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+.thumbnail p {
+  opacity: 0;
+  transition: all .2s ease-in-out;
+}
+
+.thumbnail:hover p {
+  opacity: 1;
+  transition: all .4s ease-in-out;
+}
+
+
+/*        */
+/* RESUME */
+/*        */
+.disclaimer {
+  font-size: .5rem;
+}
+/*        */
+/* FOOTER */
+/*        */
+
+footer a {
+  font-size: 1.5rem;
+  color: #373737;
+}
+
+footer a:hover,
+footer a:focus {
+  text-decoration: none;
+  /* color: #FFE899; */
+}
+
+
+
+/*            */
+/* ANIMATIONS */
+/*            */
+
+.scrolled nav {
+  display: block;
+  opacity: 1;
+  background-color: white;
+  transition: all 0.5s linear;
+}
+
+.animate--first {
+  opacity: 0;
+  transform: translateX(70rem);
+}
+
+.animate--first__transform {
+  opacity: 1;
+  transform: translateX(0rem);
+  transition: all 1s ease-in-out;
+}
+
+.animate--second {
+  opacity: 0;
+  transform: translateX(-70rem);
+}
+
+.animate--second__transform {
+  opacity: 1;
+  transform: translateX(0rem);
+  transition: all 1s ease-in-out;
+}
+
+
+/* BOUNCY ARROW */
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+#scroll {
+  cursor: pointer;
+}
+
+/* JIGGLY  */
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.service-item:hover,
+h6:hover {
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+/*               */
+/* MEDIA QUERIES */
+/*               */
+
+
+@media (min-width: 577px) and (max-width: 768px) { 
+  .card-columns {
+    column-count: 2 !important;
+  } 
+}
+@media (min-width: 1px) and (max-width: 576px) {
+  .card-columns {
+    column-count: 1;
+  } 
+
+  .animate--first {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .animate--first__transform {
+    opacity: 1;
+    transform: translateX(0rem);
+    transition: all 1s ease-in-out;
+  }
+
+  .animate--second {
+    opacity: 1;
+    transform: translateX(0rem);
+  }
+
+  .animate--second__transform {
+    opacity: 1;
+    transform: translateX(0rem);
+    transition: all 1s ease-in-out;
+  }
+}
+
+
+
