@@ -10,6 +10,14 @@
 h4 {
   font-size: 1.4rem;
 }
+h3 span, h4 span {
+  box-shadow: inset 0 -12px 0 #39fec0;
+}
+
+.mint-text, .mint-text:hover {
+  text-decoration: none;
+  color: #39fec0;
+}
 
 .card-columns {
   column-count: 3;
@@ -32,12 +40,15 @@ nav.nav--section  {
 .navbar-brand {
   color: black;
 }
+.navbar-brand:hover {
+  color: #39fec0;
+}
 .nav-link {
   text-transform: lowercase;
   color: black;
 }
 .nav-link:hover {
-  color: grey;
+  color: #39fec0;
 }
 .navbar-toggler:focus {
   outline: 1px dotted;
@@ -112,6 +123,9 @@ nav.nav--section  {
 /*        */
 /* FOOTER */
 /*        */
+footer {
+  background-color: white;
+}
 
 footer a {
   font-size: 1.5rem;
@@ -121,7 +135,7 @@ footer a {
 footer a:hover,
 footer a:focus {
   text-decoration: none;
-  /* color: #FFE899; */
+  color: #39fec0;
 }
 
 
@@ -337,4 +351,29 @@ h6:hover {
 }
 
 
+.links-page {
+  height: 100vh;
+  background: rgb(2,0,36);
+  background: linear-gradient(12deg, rgba(2,0,36,1) 4%, rgba(6,236,204,1) 48%, rgba(0,255,250,1) 89%);
+}
 
+.link {
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: lowercase;
+  color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100%;
+  padding: .7rem 1.2rem;
+}
+
+.links--section a:hover {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: white;
+  border: 2px solid #39fec0;
+  background-color: black;
+}

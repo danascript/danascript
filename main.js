@@ -2,13 +2,13 @@
 const techProgress = [
   {
     name: 'JavaScript',
-    progress: '80',
-    number: '75'
+    progress: '85',
+    number: '85'
   },
   {
     name: 'ES6',
-    progress: '90',
-    number: '85'
+    progress: '95',
+    number: '95'
   },
   {
     name: 'VueJS',
@@ -17,8 +17,8 @@ const techProgress = [
   },
   {
     name: 'ReactJS',
-    progress: '70',
-    number: '60'
+    progress: '85',
+    number: '85'
   },
   {
     name: 'NodeJS',
@@ -63,8 +63,8 @@ const createCircles = () => {
         xmlns="http://www.w3.org/2000/svg"
       >  
         <linearGradient id="gradient" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stop-color="lightgrey"></stop>
-          <stop offset="100%" stop-color="black"></stop>
+          <stop offset="0%" stop-color="white"></stop>
+          <stop offset="100%" stop-color="#39fec0"></stop>
         </linearGradient>
 
         <circle 
