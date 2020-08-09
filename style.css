@@ -353,11 +353,10 @@ h6:hover {
 
 .links-page {
   height: 100vh;
-  background: rgb(2,0,36);
-  background: linear-gradient(12deg, rgba(2,0,36,1) 4%, rgba(6,236,204,1) 48%, rgba(0,255,250,1) 89%);
 }
 
 .link {
+  font-weight: 600;
   margin-bottom: 1rem;
   text-align: center;
   text-transform: lowercase;
@@ -373,7 +372,5 @@ h6:hover {
 }
 
 .link:hover {
-  color: white;
   border: 2px solid #39fec0;
-  background-color: black;
 }
