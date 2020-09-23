@@ -2,23 +2,27 @@
 /* GENERAL */
 /*         */
 
+:root {
+  --primary--colour: #ecc7be;
+  --secondary--colour: #244b56;
+}
+
 * {
   font-family: 'Muli', sans-serif;
   font-weight: 200;
- }
+}
 
 h4 {
   font-size: 1.4rem;
+  color: var(--secondary--colour);
 }
 h3 span, h4 span {
-  box-shadow: inset 0 -12px 0 #39fec0;
+  box-shadow: inset 0 -12px 0 var(--primary--colour);
 }
-
-.mint-text, .mint-text:hover {
-  text-decoration: none;
-  color: #39fec0;
+.resume-item:hover i, 
+.service-item:hover i {
+  color: var(--primary--colour);
 }
-
 .card-columns {
   column-count: 3;
   display: inline-block;
@@ -41,14 +45,14 @@ nav.nav--section  {
   color: black;
 }
 .navbar-brand:hover {
-  color: #39fec0;
+  color: var(--primary--colour);
 }
 .nav-link {
   text-transform: lowercase;
   color: black;
 }
 .nav-link:hover {
-  color: #39fec0;
+  color: var(--primary--colour);
 }
 .navbar-toggler:focus {
   outline: 1px dotted;
@@ -117,8 +121,11 @@ nav.nav--section  {
 /*        */
 /* RESUME */
 /*        */
-.disclaimer {
-  font-size: .5rem;
+.resume-link {
+  color: var(--primary--colour);
+}
+.resume-link:hover {
+  color: var(--secondary--colour);
 }
 /*        */
 /* FOOTER */
@@ -135,7 +142,7 @@ footer a {
 footer a:hover,
 footer a:focus {
   text-decoration: none;
-  color: #39fec0;
+  color: var(--primary--colour);
 }
 
 
@@ -372,5 +379,5 @@ h6:hover {
 }
 
 .link:hover {
-  border: 2px solid #39fec0;
+  border: 2px solid var(--primary--colour);
 }
