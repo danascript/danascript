@@ -63,7 +63,7 @@ const createCircles = () => {
         xmlns="http://www.w3.org/2000/svg"
       >  
         <linearGradient id="gradient" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stop-color="#ecc7be"></stop>
+          <stop offset="0%" stop-color="#769fe8"></stop>
           <stop offset="100%" stop-color="#244b56"></stop>
         </linearGradient>
 

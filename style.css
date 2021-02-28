@@ -3,7 +3,7 @@
 /*         */
 
 :root {
-  --primary--colour: #ecc7be;
+  --primary--colour: #769fe8;
   --secondary--colour: #244b56;
 }
 
@@ -362,14 +362,15 @@ h6:hover {
   height: 100vh;
 }
 
+.links--container {
+  margin-bottom: 60px;
+}
+
 .link {
-  font-weight: 600;
   margin-bottom: 1rem;
-  text-align: center;
-  text-transform: lowercase;
   color: black;
-  border: 2px solid black;
-  border-radius: 10px;
+  border: 2px solid var(--primary--colour);
+  border-radius: 5px;
   width: 100%;
   padding: .7rem 1.2rem;
 }
