@@ -8,12 +8,13 @@
 }
 
 * {
-  font-family: 'Muli', sans-serif;
-  font-weight: 200;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 300;
 }
 
 h4 {
   font-size: 1.4rem;
+  font-weight: 400;
   color: var(--secondary--colour);
 }
 h3 span, h4 span {
@@ -72,15 +73,33 @@ nav.nav--section  {
 /*      */
 
 .number {
-  margin-top: -60px;
+  margin-top: -45px;
+  font-size: 0.8rem;
 }
 
-.tech--progress svg{
+.tech--progress svg {
   transform: rotate(-90deg);
 }
 
 .tech--progress .inner-circle {
   transition: 1.4s all ease-in-out;
+}
+
+.keywords {
+    min-height: 200px;
+    background-color: #d9d9d9ba;
+    font-size: 1rem;
+}
+.keywords :nth-child(odd) {
+    color: #353535;
+}
+.keywords :nth-child(even) {
+    color: #001b31;
+    font-weight: 600;
+}
+.keywords :nth-of-type(3n + 1) {
+    color: #284b63;
+    font-weight: normal;
 }
 
 /*          */
@@ -357,7 +376,6 @@ h6:hover {
   }
 }
 
-
 .links-page {
   height: 100vh;
 }
@@ -381,4 +399,9 @@ h6:hover {
 
 .link:hover {
   border: 2px solid var(--primary--colour);
+}
+
+.link-special {
+  animation: swing 2s infinite;
+
 }
