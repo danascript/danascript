@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'Amiko';
+  src: url('fonts/Amiko-Regular.ttf') format('ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Amiko';
+  src: url('fonts/Amiko-Bold.ttf') format('ttf');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-ExtraBold.ttf') format('ttf');
+  font-style: normal;
+  font-weight: 800;
+}
+
+
+body {
+    padding: 0 2rem;
+    font-family: 'Amiko';
+}
+
+main {
+    max-width: 800px;
+    margin-left: 40px;
+}
+
+img {
+    margin-bottom: 1rem;
+}
+
+.tag p {
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+header {
+    text-transform: uppercase;
+    margin-bottom: 1.8rem;
+}
+
+h1, h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 1rem;
+    letter-spacing: 6px;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-top: 0;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+}
+
+article h4 {
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+}
+
+article p {
+    color: #7F8082;
+    margin-bottom: 0;
+}
+
+a {
+    color: #3e62af;
+    font-size: 0.9rem;
+}
+
+a:visited {
+    color:#1a294b;
+}
+
+section div {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+.about, .skills {
+    text-align: left;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links article {
+    width: 40%;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.links img, .links h4 {
+    margin: 0;
+}
+
+@media (max-width: 830px) {
+    main {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 670px) {
+    main {
+        margin-left: 0;
+    }
+
+    .about, .skills {
+        text-align: justify;
+    }
+
+    .links article {
+        width: 100%;
+    }
+}
