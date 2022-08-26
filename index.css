@@ -30,12 +30,8 @@ main {
     margin-left: 40px;
 }
 
-.profile {
-    margin-bottom: 1rem;
-}
-
 img {
-    margin-bottom: 0;
+    margin-bottom: 1rem;
 }
 
 .tag p {
