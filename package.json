@@ -1,8 +1,0 @@
-{
-  "name": "danascript",
-  "version": "1.0.0",
-  "description": "Personal portfolio website of Daniela Fedyakin - a fullstack web developer based in Berlin, Germany.",
-  "main": "main.js",
-  "author": "Daniela Fedyakin",
-  "license": "MIT"
-}
