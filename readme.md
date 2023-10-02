@@ -24,7 +24,7 @@
 <br />
 
 
-- 🤳 Social Media: [Instagram](https://www.instagram.com/_danascript_), [YouTube](https://www.youtube.com/danascript)
+- 🤳 Social Media: [Instagram](https://www.instagram.com/danascript), [YouTube](https://www.youtube.com/danascript)
 <br />
 
 - 📫 Feel free to reach me at contact@danascript.dev
